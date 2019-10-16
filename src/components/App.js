@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-
 import './App.css';
-
 import Header from './Header/Header';
 import Compose from './Compose/Compose';
 import Post from './Post/Post';
+// import Edit from './Post/Edit/Edit';
 
 class App extends Component {
   constructor() {
